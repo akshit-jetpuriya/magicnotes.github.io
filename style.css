@@ -1,0 +1,62 @@
+body {
+    text-transform: capitalize;
+    margin: 0;
+    padding: 0;
+}
+.heading {
+    text-align: center;
+    font-size: 55px;
+    font-family: monospace;
+}
+.block {
+    display: inline-block;
+    width: 250px;
+    height: auto;
+    margin-right: 10px;
+}
+
+input {
+    font-size: 18px;
+}
+.borders {
+border: 2px solid royalblue;
+}
+.impspan {
+    cursor: pointer;
+    filter: grayscale(100%);
+    position: relative;
+    left: 200px;
+    bottom: 15px;
+
+}
+.hide {
+    visibility: hidden;
+}
+p {
+    text-transform: none;
+}
+#impDisc {
+    color: red;
+    font-size: 17px;
+    font-weight: 600;
+    visibility: hidden;
+}
+.importStar {
+    animation: impstar linear 0.6s infinite;
+}
+
+@keyframes impstar 
+{
+    100%{
+        width: 30px;
+    }
+}
+a {
+    text-decoration: none;
+}
+.hovers {
+    color: white;
+}
+.hovers:hover {
+    color: greenyellow;
+}
